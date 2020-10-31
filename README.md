@@ -1,4 +1,4 @@
-# God "The Game of Dice"
+# God - The Game of Dice
 
 * Programming Languages: Ruby
 * Test Cases: Rspec
