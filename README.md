@@ -1,7 +1,10 @@
 # God "The Game of Dice"
 
-Programming Languages: Ruby
-Test Cases: Rspec
+#Programming Languages: 
+Ruby
+
+#Test Cases:
+Rspec
 
 #how to run
 
