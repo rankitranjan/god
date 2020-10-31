@@ -27,7 +27,7 @@ module God
         return
       end
       puts "\n#{@current_player.name} its your turn"
-      points = dice_roll.to_i
+      points = dice_roll
       puts "\nPoints achieved: #{points} \n"
       sleep 0.1
       update_score(points)
