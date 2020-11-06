@@ -1,6 +1,7 @@
 require "spec_helper"
 
 module God
+  
   describe Player do
 
     context "#initialize" do

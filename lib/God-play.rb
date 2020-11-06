@@ -1,6 +1,7 @@
 require_relative "./God/version.rb"
 require_relative "./God/player.rb"
 require_relative "./God/game.rb"
+require_relative "./God/game_helper.rb"
 
 loop do
     print "Enter number of players: "
@@ -31,8 +32,10 @@ loop do
         puts "You didn't put integer, please put integer and try again."
     end
 end
+
 puts
 puts "-------------------------------------------"
 puts "Welcome. We have the following players:"
 puts "-------------------------------------------"
+
 God::Game.new(@nop, @poa).play
